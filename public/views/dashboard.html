@@ -1,4 +1,10 @@
-<div class="content-wrapper">
-<button type="button" class="btn btn-primary" ng-click = "getChild(jsonData)">Parent</button><br>
-<div id="show_tree"></div>
+<div class="container" style="margin: 10px; ">
+	<div class="panel panel-primary">
+      	<div class="panel-heading">Creating Tree From Json</div>
+      	<div class="panel-body">
+      		<div id="show_tree">
+	    		<ng-tree my-options="jsonData"></ng-tree>
+			</div>
+      	</div>
+    </div>
 </div>
